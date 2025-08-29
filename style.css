@@ -1,0 +1,28 @@
+body {
+    background: #000;
+}
+
+#horizontal-line {
+    pointer-events: none;
+    height: 1px;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    left: 0;
+}
+
+#vertical-line {
+    pointer-events: none;
+    height: 100%;
+    width: 1px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+}
+
+.pill {
+    border-radius: 10px;
+    position: absolute;
+    opacity: 0.8;
+    cursor: pointer;
+}
