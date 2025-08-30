@@ -21,7 +21,6 @@ body {
 }
 
 .pill {
-    border-radius: 10px;
     position: absolute;
     opacity: 0.8;
     cursor: pointer;
