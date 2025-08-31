@@ -1,12 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap");
+
 body {
-    background: #000;
+    background: conic-gradient(at top, #ffffff, #94a3b8, #f1f5f9);
+    min-height: 100vh;
+    cursor: cell;
+    font-family: "DM Serif Display", serif;
+}
+
+.pill {
+    position: absolute;
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 #horizontal-line {
     pointer-events: none;
-    height: 1px;
+    height: 2px;
     width: 100%;
-    background: #fff;
+    background: #1f2937;
     position: absolute;
     left: 0;
 }
@@ -14,14 +25,18 @@ body {
 #vertical-line {
     pointer-events: none;
     height: 100%;
-    width: 1px;
-    background: #fff;
+    width: 2px;
+    background: #1f2937;
     position: absolute;
     top: 0;
 }
 
-.pill {
-    position: absolute;
-    opacity: 0.8;
-    cursor: pointer;
+.info {
+    z-index: -1;
+    pointer-events: none;
+    user-select: none;
+}
+
+.info p.description {
+    font-family: "TikTok Sans", sans-serif;
 }
